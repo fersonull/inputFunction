@@ -67,6 +67,7 @@ button {
     border-radius: 50px;
     outline: none;
     border: none;
+    cursor: pointer;
     transition: ease 0.2s;
 }
 
@@ -110,6 +111,7 @@ button {
     outline: none;
     width: 40px;
     padding: 3px;
+    curso: pointer;
     transition: ease 0.2s;
 }
 
