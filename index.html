@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Simple Function</title>
+    <link rel="stylesheet" href="try.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <div class="wrapper" id="wrapbox">
+        <h2>Welcome!</h2>
+        <div class="box">
+            <div class="form">
+                <p>Enter your username</p>
+                <input type="text" placeholder="Enter here" required id="user-input">
+                <input type="submit" class="button" id="btn-submit" value="OK" onclick="userDone()">
+            </div>
+        </div>
+    </div>
+
+    <div class="popup-box" id="openPop">
+        <h3 id="user">Welcome, User!</h3>
+        <button id="btn-close" onclick="closePop()">OK</button>
+    </div>
+
+    <script src="pop.js"></script>
+</body>
+</html>
